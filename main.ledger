@@ -1,0 +1,11 @@
+include account.dat
+include payee.dat
+
+tag Payee
+commodity $
+	note RUR
+	format $1000.00
+	nomarket
+	alias  руб
+	default
+#D 1000.00 руб
